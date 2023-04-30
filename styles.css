@@ -1,0 +1,385 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+body {
+background-image: url(images/bg-hero-mobile.svg);
+
+background-repeat: no-repeat;
+
+
+
+}
+
+.logo {
+    width: 6rem;
+    margin: 30px 0px 0px 20px;
+}
+.head {
+    text-align: center;
+    margin: -20px 0px 0px 250px;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px rgb(169, 169, 187);
+    border-radius: 10px;
+    width: 100px;
+    height:22px;
+font-size: 13px;
+padding-top: 3px;
+}
+.head a{
+    color: black;
+    text-decoration: none;
+
+}
+header {
+    
+    background-color:  hsl(193, 100%, 96%);
+}
+.first {
+    text-align: center;
+      
+}
+.first h2 {
+    padding: 100px 20px 20px 20px;
+    font-family: 'poppins';
+    font-size: 30px;
+    
+}
+.first p {
+    font-size: 18px;
+    padding:0px 40px 40px 40px;
+    color: hsl(208, 11%, 55%);
+}
+.get{
+    width: 250px;
+        height: 35px;
+    border-radius: 20px;
+    margin: 0px 0px 10px 60px;
+    background-color: hsl(322, 100%, 66%);
+    padding: 7px 0px 0px 60px;
+
+}
+.get a {
+
+    text-decoration: none;
+    color: #fff;
+}
+.img:nth-child(1) {
+    margin-left: 0px;
+}
+.img {
+    width: 80%;
+    margin: 40px 0px 0px 40px ;
+}
+.second,.third, .fourth{
+    background-color: #fff;
+    width: 330px;
+    height: 460px;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    left: 23px;
+    box-shadow: 1px 1px 5px rgb(202, 202, 209);
+border-radius: 15px;
+margin-bottom: 35px;
+}
+.second h2, .third h2, .fourth h2 {
+    margin: 45px 0px 0px -20px;
+}
+.second p{
+    padding: 15px 50px 0px 50px;
+    margin-left: -23px;
+    color: hsl(208, 11%, 55%);
+}
+.third p {
+    padding: 15px 60px 0px 60px;
+    margin-left: -23px;
+    color: hsl(208, 11%, 55%);
+}
+.back {
+    background-color: #fff;
+}
+.fourth p {
+    padding: 15px 70px 0px 70px;
+    margin-left: -23px;
+    color: hsl(208, 11%, 55%);
+}
+.ready {
+    width: 340px;
+    height: 170px;
+    box-shadow: 1px 1px 5px rgb(202, 202, 209);
+    margin: 100px 0px 0px 20px;
+    position: relative;
+    border-radius: 20px;
+    padding: 40px 0px 0px 30px;
+    background-color: #fff;
+    top: 70px;
+}
+.free {
+    margin: 30px 0px 0px 40px;
+    font-size: 13px;
+    padding: 10px 0px 0px 46px;
+    width: 200px;
+    box-shadow: 1px 1px 5px rgb(202, 202, 209);
+}
+.footer {
+    color: #fff;
+    text-align: left;
+    padding-top: 100px;
+    background-color:hsl(192, 100%, 9%) ;
+}
+.foot {
+    background-color: #fff;
+    width: 10rem;
+    color: #fff;
+}
+.loc {
+    width: 13px;
+    margin: 30px 0px 0px 20px;
+}
+.footer p {
+    padding: 0px 60px 0px 60px;
+    margin: -20px 0px 0px 0px;
+}
+.footer a:first-of-type{
+    text-decoration: none;
+    color: #fff;
+}
+
+.pho {
+    margin: 0px 0px 1px 20px;
+    width: 18px;
+}
+.email {
+    margin: 0px 0px 20px 20px;
+    
+}
+.ema {
+    width: 18px;
+}
+.last p {
+    margin: 10px 0px 0px -40px;
+    font-size: 20px;
+}
+.last {
+    margin-top: 60px;
+}
+.copy {
+    text-align: center;
+    font-size: 12px;
+    margin: 40px 0px 0px 0px;
+    
+}
+i.fa-brands {
+color:#fff;
+background-color: hsl(192, 100%, 9%);
+border: 1px solid #fff;
+padding: .5rem;
+border-radius: 50%;
+}
+
+.social {
+    color:#fff;
+    display: flex;
+    gap: 30px;
+    margin-top: 55px;
+justify-content: center;
+    
+    background-color: hsl(192, 100%, 9%);
+}
+@media screen and (min-width:660px){
+    header {
+        display: grid;
+        background-color: hsl(193, 100%, 96%);;
+        background-image: url(images/bg-hero-desktop.svg);
+       padding-left: 40px;
+        
+        height: 670px;
+       width:2000px;
+
+    }
+    header .img {
+        position: relative;
+        left: 1100px;
+        bottom: 450px;
+        max-width: 700px;
+    }
+    .first {
+        text-align: left;
+    }
+    .first p{
+        font-size: 28px;
+        padding: 0px 0px 0px 0px;
+        margin-left: 70px;
+        width: 700px;
+    
+    }
+    
+    .first h2 {
+margin-left: 50px;
+font-size: 50px;
+width: 600px;
+
+    }
+header .get {
+    margin: 40px 0px 0px 70px;
+    width: 280px;
+    height: 50px;
+    padding-top: 15px;
+    font-size: 18px;
+}
+header .logo {
+    width: 300px;
+    margin: 50px 0px 0px 70px;
+}
+header .head{
+   position:relative;
+   left: 1400px;
+   width: 200px;
+   height: 40px;
+   font-size: 20px;
+   border-radius: 20px;
+   padding-top: 10px;
+   top: -20px;
+}
+.second, .fourth {
+    width:1550px;
+    margin: 70px 0px 0px 205px;
+   text-align: left;
+}
+.second img, .fourth img{
+    width: 450px;
+    position: absolute;
+    left: 1050px;
+}
+.second h2, .fourth h2{
+    padding:120px 0px 0px 150px ;
+    font-size: 50px;
+    width: 500px; 
+}
+.second p, .fourth p {
+    margin: 0px 0px 0px 135px;
+    padding: 30px 0px 0px 0px;
+    font-size: 30px;
+    width: 700px;
+}
+.third {
+    width: 1550px;
+    margin: 70px 0px 0px 205px;
+    text-align: left;
+}
+.third img{
+    width: 450px;
+    position: absolute;
+    right: 1000px;
+    top: 50px;
+}
+ .third h2 {
+    margin: 0px 0px 0px 600px;
+
+}
+.third p{
+    margin: 150px 0px 0px 665px;
+    font-size: 30px;
+    width: 850px;
+    margin-right: 0px;
+}
+.third h2 {
+    position: relative;
+    top: 150px;
+    left: 120px;
+    font-size: 50px;
+    width: 500px;
+}
+.footer {
+    width: 2000px;
+    height: 400px;
+    display: flex;
+
+   padding-left: 140px;
+}
+.ready {
+    width: 900px;
+    height: 300px;
+    margin-left: 550px;
+}
+.ready h3{
+    font-size: 45px;
+    text-align: center;
+    margin: 20px 0px 0px 70px ;
+    width: 700px;
+
+}
+.free {
+    width: 450px;
+    height: 85px;
+    border-radius: 40px;
+    margin: 50px 0px 0px 190px;
+    font-size: 30px;
+    padding: 22px 0px 0px 100px;
+}
+.foot {
+    height: 30px;
+
+}
+.loc {
+    height: 15px;
+    width: 15px;
+    position: relative;
+    top: 60px;
+    right: 180px;
+
+}
+.location p{
+    top: 60px;
+    position: relative;
+    right: 180px;
+    width: 400px;
+}
+.pho {
+    height: 15px;
+    width: 15px;
+    position: relative;
+    right: 580px;
+    top: 170px;
+}
+.phone p {
+    position: relative;
+    right: 575px;
+    top: 170px;
+    width:300px;
+}
+.ema {
+    position: relative;
+    right: 880px;
+    top: 190px;
+}
+.email{
+    position: relative;
+    right: 835px;
+    top: 170px;
+}
+.last{
+  position: relative;
+  right: 400px;
+  display: grid;
+  grid-template-columns: 200px 0px 200px 0px ;
+grid-template-rows: 50px 50px;
+}
+.copy{
+    position: relative;
+    right: 250px;
+    top: 200px;
+
+}
+.fa-brands{
+    height: 35px;
+}
+.social{
+    position: relative;
+    right: 100px;
+
+}
+}
